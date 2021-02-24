@@ -99,18 +99,21 @@ function App() {
               />
             </center>
             <Input
+              className='input'
               placeholder='Username'
               type='text'
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
             <Input
+              className='input'
               placeholder='Email'
               type='text'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
+              className='input'
               placeholder='Password'
               type='password'
               value={password}
@@ -133,12 +136,14 @@ function App() {
               />
             </center>
             <Input
+              className='input'
               placeholder='Email'
               type='text'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
+              className='input'
               placeholder='Password'
               type='password'
               value={password}
